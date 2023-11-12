@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: #292c35;
 }
+
 .container {
   width: 100%;
   height: 100vh;
@@ -11,7 +12,8 @@
   justify-content: center;
   align-items: center;
 }
-.container .content{
+
+.container .content {
   width: 35%;
   height: 70%;
   display: flex;
@@ -21,6 +23,7 @@
   border: 1px solid #3389d3;
   border-radius: 10px;
 }
+
 .app h2 {
   font-size: 50px;
   text-align: center;
@@ -28,9 +31,10 @@
   color: #3389d3;
   margin-bottom: 20px;
 }
+
 .app ul li {
   list-style-type: "🤜 ";
-list-style-position: inside;
+  list-style-position: inside;
   font-size: 1.3em;
   font-weight: 500;
   margin: 20px 0;
@@ -70,14 +74,15 @@ list-style-position: inside;
   color: #292c35;
   transform: scale(1.1);
 }
+
 .container .content .app .done {
   text-decoration: line-through;
   list-style-type: "✌️ ";
 }
 
-.info{
+.info {
   position: relative;
-} 
+}
 
 .info span {
   position: absolute;

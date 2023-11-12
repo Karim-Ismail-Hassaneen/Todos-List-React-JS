@@ -20,7 +20,7 @@ function App() {
     let newTodoList = [...todos];
     newTodoList.splice(index, 1);
     setTodos(newTodoList)
-  }
+  };
   return (
     <>
       <div className="container">
@@ -32,10 +32,10 @@ function App() {
                 // eslint-disable-next-line react/jsx-key
                 return <div className="info">
                   <li
-                   className={completed ? "done" : ""} 
-                   key={index} 
-                   onClick={() => textDone(index)}>
-                  {inputText}
+                    className={completed ? "done" : ""}
+                    key={index}
+                    onClick={() => textDone(index)}>
+                    {inputText}
                   </li>
                   <span onClick={() => textDelete(index)}>✖️</span>
                 </div>
