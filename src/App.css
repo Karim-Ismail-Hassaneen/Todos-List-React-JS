@@ -35,7 +35,7 @@
 .app ul li {
   list-style-type: "🤜 ";
   list-style-position: inside;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   font-weight: 500;
   margin: 20px 0;
   color: #3389d3;
@@ -77,7 +77,7 @@
 
 .container .content .app .done {
   text-decoration: line-through;
-  list-style-type: "✌️ ";
+  list-style-type: "👊 ";
 }
 
 .info {
