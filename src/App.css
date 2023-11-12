@@ -21,8 +21,6 @@
   border: 1px solid #3389d3;
   border-radius: 10px;
 }
-
-
 .app h2 {
   font-size: 50px;
   text-align: center;
@@ -31,13 +29,14 @@
   margin-bottom: 20px;
 }
 .app ul li {
-  list-style: none;
+  list-style-type: "🤜 ";
+list-style-position: inside;
   font-size: 1.3em;
-  font-weight: 400;
+  font-weight: 500;
   margin: 20px 0;
   color: #3389d3;
-  text-align: center;
   overflow-wrap: break-word;
+  cursor: pointer;
 }
 
 .app input {
@@ -70,4 +69,20 @@
   background-color: #3389d3;
   color: #292c35;
   transform: scale(1.1);
+}
+.container .content .app .done {
+  text-decoration: line-through;
+  list-style-type: "✌️ ";
+}
+
+.info{
+  position: relative;
+} 
+
+.info span {
+  position: absolute;
+  right: 12%;
+  top: 15%;
+  font-size: 18px;
+  cursor: pointer;
 }
