@@ -30,10 +30,9 @@ function App() {
             <ul>
               {todos.map(({ inputText, completed }, index) => {
                 // eslint-disable-next-line react/jsx-key
-                return <div className="info">
+                return <div key={index} className="info">
                   <li
                     className={completed ? "done" : ""}
-                    key={index}
                     onClick={() => textDone(index)}>
                     {inputText}
                   </li>
